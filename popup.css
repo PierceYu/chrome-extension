@@ -1,0 +1,44 @@
+body {
+    width: 200px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px black double;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0 0 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    background-color: #1E90FF;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+#workButton {
+    background-color: #FF0033;
+} 
+
+#breakButton {
+    background-color: #228B22;
+}
+
+#timer {
+    position: relative;
+    border: 3px black solid;
+    margin-top: 25px;
+    padding: 5%;
+    border-radius: 20px;
+}
+
