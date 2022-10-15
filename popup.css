@@ -2,7 +2,7 @@ body {
     width: 200px;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
-    border: 2px black double;
+    border: 3px rgba(0, 0, 0, 0.51) solid;
 }
 
 #container {
@@ -20,25 +20,35 @@ button {
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:300;
-    background-color: #1E90FF;
+    background-color:#2196F3;
     color:#FFFFFF;
     text-align:center;
     transition: all 0.2s;
 }
 
 #workButton {
-    background-color: #FF0033;
+    background-color: #F44336;
 } 
 
 #breakButton {
-    background-color: #228B22;
+    background-color: #4CAF50;
+}
+
+#pause {
+    background-color: #FDD835;
+    color: black;
 }
 
 #timer {
     position: relative;
-    border: 3px black solid;
+    border: 3px rgba(0, 0, 0, 0.557) solid;
     margin-top: 25px;
     padding: 5%;
     border-radius: 20px;
+}
+
+#space{
+    font-size: 25px;
+    color: white;
 }
 

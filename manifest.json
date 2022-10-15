@@ -3,6 +3,7 @@
     "description": "Productivity assitant",
     "version": "1.0",
     "manifest_version": 3,
+    "author": "P&J",
     "icons" :{
         "16": "/src/16.png",
         "32": "/src/32.png",
@@ -14,11 +15,5 @@
     },
     "action": {
         "default_popup": "popup.html"
-    },
-    "permissions": [
-        "storage",
-        "activeTab",
-        "scripting",
-        "tabs"
-]
+    }
 }
